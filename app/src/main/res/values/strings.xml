@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Elektra</string>
+
+    <string name="info_iv_descripcion">Descripción de la imágen</string>
+
+    <!--BaseActivity.java-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--App Message-->
+    <string name="api_retry_error">¡Por favor, intenta de nuevo!</string>
+    <string name="api_default_error">¡Algo malo paso!</string>
+    <string name="some_error">¡Ocurrió algún error!</string>
+    <string name="connection_error">No hay conexión  a Internet!</string>
+
+    <!--custom_toast.xml-->
+    <string name="contenido_toast">Mensaje a mostrar en el Toast &#8230;</string>
+
+    <!--activity_bienvenidad.xml-->
+    <string name="label_unidad_negocio">Banco Azteca</string>
+    <string name="label_bienvenido">Bienvenido</string>
+    <string name="tv_label_info_msj_permiso">Es necesario que nos des permiso para \n acceder a tu ubicación, contactos, entre \n otros, para que tu dinero este \n siempre seguro.</string>
+
+    <string name="msj_info_dialogo_permisos">Para continuar, debe acceder a la configuración de su dispositivo para habilitar los permisos de localización</string>
+    <string name="accion_aceptar">ACEPTAR</string>
+    <string name="accion_cancelar">CANCELAR</string>
+
+
+    <!--Firebase-->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <!--Network-->
+    <string name="message_unavailable_network_connection">Sin conexión a internet</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <!--content_login.xml-->
+    <string name="label_btn_login_facebook">Inicia sesión con Facebook</string>
+    <string name="label_tv_init_login">Inicia Sesión</string>
+    <string name="hint_login_usuario">Usuario</string>
+    <string name="hint_login_password">Password</string>
+    <string name="ime_action_label_siguiente">siguiente</string>
+    <string name="label_rb_login_no_cerrar_sesion">No cerrar sesión</string>
+    <string name="label_btn_login_ingresar">Ingresar</string>
+    <string name="label_btn_login_registrate">Regístrate</string>
+    <string name="label_tv_login_olvido_password"><u>¿Haz olvidado tu contraseña?</u></string>
+
+    <!--item_list_producto.xml-->
+    <string name="label_btn_mostrar_detalle">Mostrar Detalle</string>
+
+
+    <string name="gmail">Correo electronico requerido</string>
+    <string name="gmail_invalidate">El formato del correo electrónico es iválido</string>
+    <string name="password">Contraseña requerido</string>
+
+
+
+
+</resources>

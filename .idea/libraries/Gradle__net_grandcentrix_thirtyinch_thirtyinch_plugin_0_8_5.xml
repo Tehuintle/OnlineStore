@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.grandcentrix.thirtyinch:thirtyinch-plugin-0.8.5">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/thirtyinch-plugin-0.8.5.aar/99b0895db4a85ef4ad3a6dc97c29572d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/thirtyinch-plugin-0.8.5.aar/99b0895db4a85ef4ad3a6dc97c29572d/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.grandcentrix.thirtyinch/thirtyinch-plugin/0.8.5/3b6b349e3c0a5dc76c2395a7f815338f57984552/thirtyinch-plugin-0.8.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

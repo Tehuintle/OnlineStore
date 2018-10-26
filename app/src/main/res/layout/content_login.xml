@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_login"
+    style="@style/ThemeLogin">
+
+    <ImageView
+        android:id="@+id/iv_login"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:contentDescription="@string/info_iv_descripcion"
+        app:srcCompat="@drawable/ic_logo_elektra" />
+
+    <TextView
+        android:id="@+id/tv_info_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_between"
+        android:layout_marginTop="@dimen/padding_between"
+        android:gravity="center"
+        android:text="@string/label_tv_init_login"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_login_usr"
+        style="@style/ThemeTextInputLayouts"
+        app:errorTextAppearance="@style/ErrorText">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_login_usuario"
+            style="@style/ThemeTilEditText"
+            android:drawableStart="@drawable/ic_usuario"
+            android:hint="@string/hint_login_usuario"
+            android:textSize="14sp"
+            android:imeActionLabel="@string/ime_action_label_siguiente"
+            android:inputType="textEmailAddress" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_login_pwd"
+        style="@style/ThemeTextInputLayouts"
+        app:errorTextAppearance="@style/ErrorText"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorPrimary">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_login_password"
+            android:textSize="14sp"
+            android:imeOptions="actionGo"
+            style="@style/ThemeEtPass" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_msj_error_servidor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorError"
+        android:textSize="12sp"
+        android:visibility="gone"
+        tools:text="Mensaje de error proveniente del servidor"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_btn_login_ingresar"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bk_boton_selector"/>
+
+    <Button
+        android:id="@+id/btn_login_registrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bk_boton_margen_normal"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/label_btn_login_registrate" />
+
+    <TextView
+        android:id="@+id/btn_login_olvido_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/button_padding"
+        android:text="@string/label_tv_login_olvido_password"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>

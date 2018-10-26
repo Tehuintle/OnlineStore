@@ -1,0 +1,92 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.KOTLIN_VERSION = '1.2.50'
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$KOTLIN_VERSION"
+        classpath "io.realm:realm-gradle-plugin:5.3.0"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+
+    //SDK_CONFIGURE_APP
+    COMPILE_SDK_VERSION = 27
+    MIN_SDK_VERSION = 19
+    TARGET_SDK_VERSION = 27
+    VERSION_CODE = 1
+    VERSION_NAME = "1.0"
+
+    //SUPPORT_TEST
+    RUNNER_VERSION = '1.0.2'
+    EXPRESSO_VERSION = '3.0.2'
+
+    //APPCOMPAT_SUPPORT
+    SUPPORT_LIBRARY_VERSION = '27.1.1'
+    CONSTRAIN_VERSION = '1.1.2'
+
+    //DAGGER
+    DAGGER2_VERSION = '2.14.1'
+    JAVAX_ANNOTATION = '1.0'
+    JAVAX_INJECT = '1'
+
+    //RXJAVA_RXANDROID_RXBINDING
+    RX_ANDROID = '2.0.2'
+    RX_JAVA = '2.1.5'
+    RX_BINDING = '2.1.1'
+    RX_PERMISSSION_VERSION = '0.9.5@aar'
+
+    //OKHTTP
+    OKHTTP3_VERSION = '3.10.0'
+
+    //BUTTERKNIFE
+    BUTTERKNIFE_VERSION = '8.8.1'
+
+    //RETROFIT
+    RETROFIT_VERSION = '2.4.0'
+    GSON_VERSION = '2.8.0'
+
+    //GLIDE
+    GLIDE_VERSION = '4.7.1'
+
+    //PLAY_SERVICES
+    PLAY_SERVICES = '15.0.1'
+    VISION_VERSION = "15.0.2"
+    FIREBASE_VERSION = "15.0.2"
+    FIREBASE_MESSAGING_VERSION = "17.0.0"
+    FIREBASE_CORE_VERSION = "16.0.0"
+
+    //LOCATION
+    REACTIVE_LOCATION = "2.1@aar"
+
+    //MULTIDEX
+    MULTIDEX = "1.0.3"
+
+    //CONTROL_FOR_DEBUG
+    TIMBER_VERSION = '4.7.0'
+
+    //THIRTY_INC_MVP
+    THIRTY_INC_VERSION = '0.8.5'
+
+    //LOTTIE_ANIMACIONES
+    LOTTIE_VERSION = '2.5.4'
+}

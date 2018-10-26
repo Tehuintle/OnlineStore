@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.grandcentrix.thirtyinch:thirtyinch-rx2-0.8.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/thirtyinch-rx2-0.8.5.aar/efd23b8651c6873a36116a34d7fec8c5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/thirtyinch-rx2-0.8.5.aar/efd23b8651c6873a36116a34d7fec8c5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.grandcentrix.thirtyinch/thirtyinch-rx2/0.8.5/9118e3f5e8ed88e9a516e08dc715d61e942b206/thirtyinch-rx2-0.8.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.grandcentrix.thirtyinch:thirtyinch-logginginterceptor-0.8.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/thirtyinch-logginginterceptor-0.8.5.aar/799062233ddcd838752603a1457e7674/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/thirtyinch-logginginterceptor-0.8.5.aar/799062233ddcd838752603a1457e7674/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.grandcentrix.thirtyinch/thirtyinch-logginginterceptor/0.8.5/1fc1da7aa81ea225b30fe04f7e5c3cd896be3660/thirtyinch-logginginterceptor-0.8.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
